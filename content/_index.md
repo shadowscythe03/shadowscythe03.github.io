@@ -72,9 +72,6 @@ sections:
   #         - events
   #   design:
   #     view: card
-          - events
-    design:
-      view: card
   - block: collection
     id: news
     content:
