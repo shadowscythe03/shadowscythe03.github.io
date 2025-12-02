@@ -1,0 +1,259 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.3in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-0.25pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {\small#1} & {\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%% RESUME STARTS HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Abhiroop Chintalapudi} \\ \vspace{6pt}
+  \small +91 7036944331 $|$ \href{mailto:abhiroop.chintalapudi@iitgn.ac.in}{\underline{abhiroop.chintalapudi@iitgn.ac.in}} $|$
+  \href{https://www.linkedin.com/in/chintalapudi-abhiroop-638ab82b6}{\underline{LinkedIn}} $|$
+  \href{https://github.com/shadowscythe03}{\underline{GitHub}} \\ \vspace{4pt}
+  % \small \textit{M.Tech AI Candidate | Generative \& Multimodal ML | NLP, CV | In-Context Learning \& Bandits}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Indian Institute of Technology Gandhinagar}{CPI: 8.2}
+{Master of Technology in Artificial Intelligence}{2024 -- Present}
+\resumeSubheading
+{Indian Institute of Technology Hyderabad}{CPI: 7.01}
+{Bachelor of Technology in Artificial Intelligence}{2020 -- 2024}
+% \resumeSubheading
+% {MP \& EV English Medium School}{Percentage: 90.6\%}
+% {Class XII (PCM)}{2017 -- 2018}
+\resumeSubHeadingListEnd
+
+%-----------Projects-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubheading
+{StoryForge AI Studio: Story-to-Video Generative Pipeline}{Jan 2025 - Apr 2025}
+{Prof. Anirban Dasgupta, IIT Gandhinagar $|$ \href{https://github.com/AbhayVG/ES667-Deep-Learning-project}{\underline{Repo}}}{}
+\resumeItemListStart
+\resumeItem{Engineered 7-stage multilingual (7 languages) generative pipeline integrating Llama 3 (Ollama), Stable Diffusion+LoRA, BLIP/CLIP, gTTS, MoviePy; modular Python architecture (8+ core components).}
+\resumeItem{Delivered Streamlit studio for end-to-end keyword→video in a single run; auto-produces and packages all artifacts (story, prompts, images, audio, consistency report, final MP4) for download.}
+\resumeItemListEnd
+% \vspace{0.5pt}
+\resumeSubheading
+{Multimodal Pain Classification (m-PainAttnNet)}{Jan 2024 - Apr 2024}
+{Prof. Nagarajan Ganapati, IIT Hyderabad $|$ \href{https://github.com/shadowscythe03/projects/tree/main/m-PainAttnNet}{\underline{Repo}}}{}
+\resumeItemListStart
+\resumeItem{Extended PainAttnNet with attention fusion of 3 physiological modalities (ECG, EMG, EDA) for 5-class pain inference; produced ablation notebooks \& final presentation artifacts.}
+\resumeItem{Implemented architecture variants and modality-drop experiments to quantify contribution and improve cross-session robustness in BioVid evaluations.}
+\resumeItemListEnd
+% \vspace{0.5pt}
+\resumeSubheading
+{Semantic Segmentation of Aerial Drone Images}{Aug 2023 - Nov 2023}
+{Prof. Summohana Channapayya, IIT Hyderabad $|$ \href{https://github.com/shadowscythe03/projects/tree/main/aerial_sem_seg_FINAL_SUBMISSION}{\underline{Repo}}}{}
+\resumeItemListStart
+\resumeItem{Benchmarked 4+ architectures (UNet, DeepLabV3+, SegNet, Swin Transformer) on high-resolution drone imagery with reproducible Jupyter workflows.}
+\resumeItem{Authored comparative report (peak ~80\% accuracy) highlighting trade-offs in model capacity vs. spatial resolution for deployment selection.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ------- Additional Projects (commented for easy swap) -------
+% \resumeSubHeadingListStart
+%   \resumeSubheading
+%     {Next Word Predictor (Configurable MLP NLP)}{Sept. 2024}
+%     {Prof. Nipun Batra, IIT Gandhinagar $|$ \href{https://github.com/shadowscythe03/es335-24-fall-assignment-3}{\underline{Repo}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Implemented configurable PyTorch MLP (context 5/10/15; embeddings 64/128; ReLU/Tanh) for corpus next-word prediction.}
+%       \resumeItem{Deployed Streamlit app + live demo with interactive model parameter controls and on-the-fly inference.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Object Detection with SSD ResNet50}{May 2022}
+%     {Prof. Summohana Channapayya, IIT Hyderabad $|$ \href{https://github.com/shadowscythe03/projects/tree/main/object_detection}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Built object detection pipeline via transfer learning on SSD ResNet50 for custom dataset.}
+%       \resumeItem{Automated dataset annotation with LabelImg for 10 classes.}
+%       \resumeItem{Achieved significant accuracy improvements over baseline COCO models.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Advanced Image Segmentation Techniques}{May 2022}
+%     {Prof. Summohana Channapayya, IIT Hyderabad $|$ \href{https://github.com/shadowscythe03/projects/tree/main/study_of_image_seg_tech}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Compared Improved Contrast JSEG, CNN, and Swin Transformer (UPer Head).}
+%       \resumeItem{Analyzed Corel 10K and Stanford Background datasets to highlight strengths/limits.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Document-Level Text Simplification}{Mar 2024}
+%     {Prof. Maurendra Desai, IIT Hyderabad $|$ \href{https://github.com/shadowscythe03/projects/tree/main/document_level_text_simplification}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Evaluated BART, BRIO, T5, and SIMSUM variants on PSAT corpus for simplification.}
+%       \resumeItem{Automated document processing to improve accessibility and readability.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Human Activity Recognition using Accelerometer Data}{Mar. 2024}
+%     {Prof. Nipun Batra, IIT Gandhinagar $|$ \href{https://github.com/shadowscythe03/es335-24-fall-assignment-1}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Implemented Decision Tree from scratch for real and discrete features; matched sklearn baselines.}
+%       \resumeItem{Built EDA pipeline with PCA visualization and TSFEL features on UCI-HAR and real datasets.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Algorithmic Game Theory: Stable Matchings}{Mar 2024}
+%     {Prof. Ganesh Shambaji Ghalme, IIT Hyderabad $|$ \href{https://github.com/shadowscythe03/projects/blob/main/Game_Theory_Project_Matchings.pdf}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Implemented Gale–Shapley for stable marriage; ensured optimal preference satisfaction.}
+%       \resumeItem{Developed Top Trading Cycles (TTC) algorithm for kidney exchange allocation.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Sparse Principal Component Analysis}{Mar 2024}
+%     {\href{https://github.com/shadowscythe03/projects/tree/main/Sparse_PCA}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Reviewed methodological and theoretical developments in Sparse PCA.}
+%       \resumeItem{Benchmarked algorithms on Silhouette dataset showing improved interpretability vs. PCA.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Advanced Image Processing: Matrix Factorization \& Random Fourier Features}{Mar. 2024}
+%     {Prof. Nipun Batra, IIT Gandhinagar $|$ \href{https://github.com/shadowscythe03/es335-24-fall-assignment-2}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Built image reconstruction via Matrix Factorization and RFF with linear regression.}
+%       \resumeItem{Achieved 2x super-resolution with optimized PSNR/RMSE; used momentum GD.}
+%     \resumeItemListEnd
+%   \resumeSubheading
+%     {Image Classification with VGG Architectures}{Mar. 2024}
+%     {Prof. Nipun Batra, IIT Gandhinagar $|$ \href{https://github.com/shadowscythe03/es335-24-fall-assignment-4}{\underline{Project Link}}}{}
+%     \resumeItemListStart
+%       \resumeItem{Curated binary dataset via web scraping; trained custom VGG from scratch.}
+%       \resumeItem{Fine-tuned VGG16/19 with transfer learning; evaluated with TensorBoard metrics.}
+%     \resumeItemListEnd
+% \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: Python, C, MATLAB, SQL} \\
+        \vspace{1pt}
+        \textbf{ML / DL}{: PyTorch, TensorFlow, Transformers, Stable Diffusion, LoRA, BLIP, CLIP} \\
+        \vspace{1pt}
+        \textbf{Data / CV / NLP}{: NumPy, Pandas, SciPy, OpenCV, Tokenization, Attention Models} \\
+        \vspace{1pt}
+        \textbf{MLOps / Tools}{: Streamlit, Git, GitHub, LaTeX} \\
+        \vspace{1pt}
+        \textbf{Focus Areas}{: Generative AI, Multimodal Fusion, In-Context Learning, Semantic Segmentation, Bandit Algorithms}
+        }}
+\end{itemize}
+
+%-----------RESEARCH WORK-----------
+\section{Research Work}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Robust In-Context Learning with Multi-Armed Bandit Partitioning}{May 2025 - Sept 2025}
+{Prof. Manisha Padala, IIT Gandhinagar $|$ \href{https://github.com/shadowscythe03/Robust_Incontext_Learning}{\underline{Repo}}}{}
+\resumeItemListStart
+\resumeItem{Implemented MAB algorithms (UCB, Thompson Sampling) for exemplar selection in ICL; engineered PyTorch + HuggingFace pipelines integrating 5+ open-source LLMs (Llama, GPT-2, T5) for reproducible NLP benchmarking.}
+\vspace{-10pt}
+\resumeItem{Achieved 85--95\% recovery of noise-free baseline accuracy under non-i.i.d. test conditions; automated evaluation across diverse datasets and tasks.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Achievements}
+\resumeItemListStart
+\resumeItem{All India Rank 1243 in GATE (Data Science).}
+\vspace{-6pt}
+\resumeItem{97.54 percentile in CAT 2023.}
+\vspace{-6pt}
+\resumeItem{All India Rank 616 in JEE Advanced; AIR 1037 in JEE Mains.}
+\resumeItemListEnd
+
+%-----------POSITIONS OF RESPONSIBILITY-----------
+\section{Key Courses}
+\resumeItemListStart
+\resumeItem{\textbf{Mathematics:} Linear Algebra, Vector Calculus, Discrete Mathematics, Statistics}
+\vspace{-6pt}
+\resumeItem{\textbf{Artificial Intelligence:} Machine Learning, Deep Learning, Natural Language Processing, Game Theory}
+\resumeItemListEnd
+
+% \section{Extra-Curricular}
+%   \resumeItemListStart
+%     \resumeItem{Volleyball | Analytical Puzzles | Reading | Tech Writing}
+%   \resumeItemListEnd
+% \vspace{-6pt}
+% \small{\textit{Keywords: LLMs, RAG, Vector Search, Generative AI, Multimodal, Attention, Semantic Segmentation, MLOps, Bandit Algorithms, Streamlit, LoRA, Stable Diffusion, In-Context Learning}}
+
+
+%-------------------------------------------
+\end{document}

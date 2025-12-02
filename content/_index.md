@@ -31,43 +31,47 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🔬 Research & Projects'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am passionate about advancing AI through research in Generative Models, Multimodal Learning, and Robust In-Context Learning. My work spans building end-to-end pipelines for creative AI applications, developing multimodal fusion architectures for healthcare, and exploring bandit algorithms for improved LLM performance.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Current research focuses on robust in-context learning with multi-armed bandit partitioning, achieving 85-95% recovery of baseline accuracy under non-i.i.d. conditions across diverse NLP benchmarks.
 
-        Please reach out to collaborate 😃
+        Open to collaborations in Generative AI, Multimodal ML, and LLM research! 🚀
     design:
       columns: '1'
   - block: collection
-    id: papers
+    id: projects
     content:
-      title: Featured Publications
+      title: Featured Projects
       filters:
         folders:
-          - publications
-        featured_only: true
+          - projects
+        featured_only: false
     design:
-      view: article-grid
+      view: card
       columns: 2
-  - block: collection
+  - block: markdown
     content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
+      title: '🏆 Achievements'
+      subtitle: ''
+      text: |-
+        - **GATE (Data Science)**: All India Rank 1243
+        - **CAT 2023**: 97.54 percentile
+        - **JEE Advanced**: All India Rank 616
+        - **JEE Mains**: All India Rank 1037
+        
+  # Commented out talks/events section - uncomment when you have talks
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
           - events
     design:
       view: card

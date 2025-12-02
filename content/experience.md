@@ -10,23 +10,24 @@ design:
 
 # Page sections
 sections:
-  - block: resume-experience
-    content:
-      username: admin
-    design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
+  # Experience section commented out - uncomment when you have work experience
+  # - block: resume-experience
+  #   content:
+  #     username: admin
+  #   design:
+  #     # Hugo date format
+  #     date_format: 'January 2006'
+  #     # Education or Experience section first?
+  #     is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Skills & Technical Expertise
       username: admin
     design:
-      show_skill_percentage: false
+      show_skill_percentage: true
   - block: resume-awards
     content:
-      title: Awards
+      title: Awards & Achievements
       username: admin
   - block: resume-languages
     content:
