@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: M.Tech AI Candidate | Generative & Multimodal ML Researcher
+role: M.Tech AI Candidate | GenAI Intern | Generative & Multimodal ML Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -39,7 +39,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/shadowscythe03
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/chintalapudi-abhiroop-638ab82b6
+    url: https://www.linkedin.com/in/chintalapudi-abhiroop/
 
 interests:
   - Generative AI & Diffusion Models
@@ -66,6 +66,18 @@ education:
       
       Completed comprehensive AI curriculum including Machine Learning, Deep Learning, Computer Vision, NLP, and Game Theory.
 
+work:
+  - position: Research Project - Robust In-Context Learning
+    company_name: Indian Institute of Technology Gandhinagar
+    company_url: 'https://iitgn.ac.in/'
+    company_logo: ''
+    date_start: 2025-05-01
+    date_end: 2025-09-30
+    summary: |
+      Implemented multi-armed bandit exemplar selection (UCB, Thompson Sampling) for in-context learning with PyTorch and HuggingFace.
+
+      Achieved 85-95% recovery of baseline accuracy under non-i.i.d. conditions across diverse NLP benchmarks.
+
 # Commented out work section - uncomment and update when you have experience
 # work:
 #   - position: Position Title
@@ -80,69 +92,76 @@ education:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Machine Learning
     items:
-      - name: Python & PyTorch
+      - name: PyTorch & TensorFlow
         description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+        percent: 88
+        icon: cpu-chip
+      - name: Generative AI (Diffusion, LoRA)
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        percent: 86
+        icon: sparkles
+      - name: Multimodal Learning
         description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        percent: 84
+        icon: squares-2x2
+      - name: NLP & In-Context Learning
+        description: ''
+        percent: 86
+        icon: chat-bubble-left-right
+  - name: Programming & Tools
     items:
-      - name: Hiking in the Rockies
+      - name: Python
         description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        percent: 94
+        icon: command-line
+      - name: Data Science (NumPy, Pandas)
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: chart-bar
+      - name: CV & Visualization (OpenCV, Matplotlib)
         description: ''
-        percent: 70
-        icon: book-open
+        percent: 82
+        icon: photo
+      - name: MLOps & Tooling (Git, Streamlit)
+        description: ''
+        percent: 82
+        icon: wrench-screwdriver
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: GATE (Data Science) - AIR 1243
+    date: '2024-03-01'
+    awarder: GATE
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      Ranked 1243 in GATE Data Science.
+  - title: CAT 2023 - 97.54 Percentile
+    date: '2023-11-01'
+    awarder: CAT
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
+      Scored 97.54 percentile in CAT 2023.
+  - title: JEE Advanced - AIR 616
+    date: '2020-09-01'
+    awarder: JEE Advanced
+    icon: hero/trophy
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Ranked 616 in JEE Advanced.
+  - title: JEE Mains - AIR 1037
+    date: '2020-03-01'
+    awarder: JEE Mains
+    icon: hero/trophy
+    summary: |
+      Ranked 1037 in JEE Mains.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am an M.Tech AI candidate at IIT Gandhinagar focused on generative models, multimodal learning, and robust in-context learning. I build end-to-end AI systems that connect research ideas to usable tools, from story-to-video generation pipelines to multimodal physiological signal fusion for healthcare. I am currently interning at GlobalFoundries (GenAI) in Bangalore. My current research explores multi-armed bandit methods for exemplar selection in in-context learning under non-i.i.d. conditions.

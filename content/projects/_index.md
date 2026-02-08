@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: A focused selection of research and engineering projects across generative AI, multimodal learning, and computer vision.
       filters:
         folders:
           - projects
