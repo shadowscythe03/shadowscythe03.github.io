@@ -150,12 +150,18 @@ awards:
     icon: hero/trophy
     summary: |
       Ranked 1243 in GATE Data Science.
-  - title: CAT 2023 - 97.54 Percentile
-    date: '2023-11-01'
+  # - title: CAT 2023 - 97.54 Percentile
+  #   date: '2023-11-01'
+  #   awarder: CAT
+  #   icon: hero/trophy
+  #   summary: |
+  #     Scored 97.54 percentile in CAT 2023.
+  - title: CAT 2025 - 97.54 Percentile
+    date: '2025-11-30'
     awarder: CAT
     icon: hero/trophy
     summary: |
-      Scored 97.54 percentile in CAT 2023.
+      Scored 99.43 percentile in CAT 2023.
   - title: JEE Advanced - AIR 616
     date: '2020-09-01'
     awarder: JEE Advanced

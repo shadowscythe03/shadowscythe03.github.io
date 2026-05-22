@@ -58,10 +58,11 @@ sections:
       subtitle: ''
       text: |-
         - **GATE (Data Science)**: All India Rank 1243
-        - **CAT 2023**: 97.54 percentile
+        - **CAT 2025**: 99.43 percentile
         - **JEE Advanced**: All India Rank 616
         - **JEE Mains**: All India Rank 1037
         
+  # - **CAT 2023**: 97.54 percentile
   # Commented out talks/events section - uncomment when you have talks
   # - block: collection
   #   id: talks

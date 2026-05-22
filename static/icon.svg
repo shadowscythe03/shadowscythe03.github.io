@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background rounded square -->
+  <rect width="100" height="100" rx="18" fill="#1a0030"/>
+
+  <!-- Handle — diagonal line, lower-left to upper-right -->
+  <line x1="22" y1="82" x2="68" y2="28" stroke="#c084fc" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Blade — sickle arc from tip to base -->
+  <!-- Outer cutting edge (the big curve) -->
+  <path d="M 18 42 C 8 18 38 6 62 14 C 74 18 78 28 68 28"
+        fill="none" stroke="#e9d5ff" stroke-width="5" stroke-linecap="round"/>
+  <!-- Blade body fill (thin crescent) -->
+  <path d="M 18 42 C 8 18 38 6 62 14 C 74 18 78 28 68 28
+           C 60 24 36 16 26 36 Z"
+        fill="#a855f7" opacity="0.85"/>
+
+  <!-- Skull dot at blade-handle junction -->
+  <circle cx="68" cy="28" r="5" fill="#d8b4fe" stroke="#7e22ce" stroke-width="1.5"/>
+  <circle cx="67" cy="27" r="2" fill="#1a0030" opacity="0.7"/>
+</svg>

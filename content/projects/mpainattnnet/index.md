@@ -73,13 +73,13 @@ PyTorch · NumPy · SciPy · Scikit-learn · K-fold cross-validation · Google C
 ## Project Report
 
 <iframe
-  src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/shadowscythe03/projects/main/m-PainAttnNet/G-15_Final_Project_Draft_Abhiroop.pdf&embedded=true"
+  src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/shadowscythe03/projects/main/m-PainAttnNet/G15_Final_Project_Draft_Abhiroop.pdf&embedded=true"
   width="100%"
   height="850px"
   style="border: 1px solid #e5e7eb; border-radius: 8px; display: block; margin: 1rem 0;">
 </iframe>
 
-[Download PDF](https://raw.githubusercontent.com/shadowscythe03/projects/main/m-PainAttnNet/G-15_Final_Project_Draft_Abhiroop.pdf) · [Presentation slides](https://github.com/shadowscythe03/projects/tree/main/m-PainAttnNet/G-15_Final_Presentation.pptx)
+[Download PDF](https://raw.githubusercontent.com/shadowscythe03/projects/main/m-PainAttnNet/G15_Final_Project_Draft_Abhiroop.pdf) · [Presentation slides](https://github.com/shadowscythe03/projects/blob/main/m-PainAttnNet/G15_Final_Presentation.pptx)
 
 ---
 

@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 720" fill="none">
+  <defs>
+    <linearGradient id="bladeGrad" gradientUnits="userSpaceOnUse" x1="50" y1="65" x2="420" y2="155">
+      <stop offset="0%" stop-color="#f0d8ff"/>
+      <stop offset="35%" stop-color="#c060f0"/>
+      <stop offset="100%" stop-color="#6b1fa2"/>
+    </linearGradient>
+    <linearGradient id="handleGrad" gradientUnits="userSpaceOnUse" x1="360" y1="210" x2="80" y2="660">
+      <stop offset="0%" stop-color="#7b7b90"/>
+      <stop offset="50%" stop-color="#4a4a5a"/>
+      <stop offset="100%" stop-color="#2a2a35"/>
+    </linearGradient>
+    <linearGradient id="skullGrad" gradientUnits="userSpaceOnUse" x1="300" y1="182" x2="362" y2="248">
+      <stop offset="0%" stop-color="#edd5ff"/>
+      <stop offset="100%" stop-color="#b080cc"/>
+    </linearGradient>
+    <linearGradient id="crystalGrad" gradientUnits="userSpaceOnUse" x1="388" y1="130" x2="416" y2="176">
+      <stop offset="0%" stop-color="#ff80ff"/>
+      <stop offset="50%" stop-color="#c820e8"/>
+      <stop offset="100%" stop-color="#8800aa"/>
+    </linearGradient>
+    <linearGradient id="boneGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="20" y2="0">
+      <stop offset="0%" stop-color="#e0c8f0"/>
+      <stop offset="100%" stop-color="#b090cc"/>
+    </linearGradient>
+    <linearGradient id="gripGrad" gradientUnits="userSpaceOnUse" x1="268" y1="398" x2="220" y2="475">
+      <stop offset="0%" stop-color="#9b27b0"/>
+      <stop offset="50%" stop-color="#7b1fa2"/>
+      <stop offset="100%" stop-color="#9b27b0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ═══════════════════════════ HANDLE ═══════════════════════════ -->
+
+  <!-- Staff body -->
+  <line x1="358" y1="212" x2="82" y2="658" stroke="url(#handleGrad)" stroke-width="9" stroke-linecap="round"/>
+  <line x1="355" y1="210" x2="79" y2="656" stroke="#b0b0c8" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Joint rings -->
+  <ellipse cx="336" cy="256" rx="10" ry="5.5" transform="rotate(-61 336 256)" fill="#c8a0e0" stroke="#8040b0" stroke-width="1.5"/>
+  <ellipse cx="308" cy="300" rx="10" ry="5.5" transform="rotate(-61 308 300)" fill="#c8a0e0" stroke="#8040b0" stroke-width="1.5"/>
+  <ellipse cx="258" cy="386" rx="10" ry="5.5" transform="rotate(-61 258 386)" fill="#c8a0e0" stroke="#8040b0" stroke-width="1.5"/>
+  <ellipse cx="202" cy="478" rx="10" ry="5.5" transform="rotate(-61 202 478)" fill="#c8a0e0" stroke="#8040b0" stroke-width="1.5"/>
+  <ellipse cx="150" cy="564" rx="10" ry="5.5" transform="rotate(-61 150 564)" fill="#c8a0e0" stroke="#8040b0" stroke-width="1.5"/>
+
+  <!-- Purple grip section -->
+  <line x1="268" y1="396" x2="220" y2="476" stroke="url(#gripGrad)" stroke-width="14" stroke-linecap="round"/>
+  <line x1="268" y1="396" x2="220" y2="476" stroke="#e090ff" stroke-width="3" stroke-linecap="round" opacity="0.2"/>
+  <!-- Rose bud on grip -->
+  <ellipse cx="244" cy="437" rx="11" ry="8" transform="rotate(-61 244 437)" fill="#9b27b0" stroke="#d580ff" stroke-width="1.5"/>
+  <ellipse cx="244" cy="437" rx="6" ry="4.5" transform="rotate(-61 244 437)" fill="#d060ee"/>
+  <circle cx="244" cy="437" r="3" fill="#f0a0ff"/>
+
+  <!-- Thorns -->
+  <path d="M 316,316 L 333,306 L 330,315 Z" fill="#9b27b0"/>
+  <path d="M 296,348 L 279,340 L 284,348 Z" fill="#9b27b0"/>
+  <path d="M 276,380 L 293,371 L 290,380 Z" fill="#9b27b0"/>
+  <path d="M 198,490 L 181,482 L 186,490 Z" fill="#9b27b0"/>
+  <path d="M 176,524 L 193,515 L 190,524 Z" fill="#9b27b0"/>
+  <path d="M 154,558 L 138,550 L 143,558 Z" fill="#9b27b0"/>
+
+  <!-- ═══════════════════════════ BOTTOM ORNAMENT ═══════════════════════════ -->
+
+  <!-- Pointed tip below ring -->
+  <path d="M 70,688 L 74,710 L 78,688 Z" fill="#6a1b9a" stroke="#9b27b0" stroke-width="1"/>
+
+  <!-- Ring -->
+  <circle cx="74" cy="666" r="22" fill="none" stroke="#8b27b2" stroke-width="3.5"/>
+  <circle cx="74" cy="666" r="13" fill="none" stroke="#ce93d8" stroke-width="1.5"/>
+  <circle cx="74" cy="666" r="6" fill="#8b27b2"/>
+
+  <!-- 8 spikes -->
+  <line x1="74" y1="644" x2="74" y2="634" stroke="#8b27b2" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="74" y1="688" x2="74" y2="698" stroke="#8b27b2" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="52" y1="666" x2="42" y2="666" stroke="#8b27b2" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="96" y1="666" x2="106" y2="666" stroke="#8b27b2" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="58" y1="650" x2="51" y2="643" stroke="#8b27b2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="90" y1="650" x2="97" y2="643" stroke="#8b27b2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="58" y1="682" x2="51" y2="689" stroke="#8b27b2" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="90" y1="682" x2="97" y2="689" stroke="#8b27b2" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- ═══════════════════════════ BONE FINGERS at skull joint ═══════════════════════════ -->
+
+  <path d="M 350,260 L 382,240 L 384,246 L 354,267 Z" fill="#d0a8e8" stroke="#9060b0" stroke-width="1"/>
+  <path d="M 347,271 L 380,255 L 382,261 L 351,278 Z" fill="#d0a8e8" stroke="#9060b0" stroke-width="1"/>
+  <path d="M 344,282 L 375,270 L 377,276 L 348,289 Z" fill="#d0a8e8" stroke="#9060b0" stroke-width="1"/>
+  <!-- Fingertip knuckles -->
+  <ellipse cx="383" cy="243" rx="4.5" ry="3" transform="rotate(-28 383 243)" fill="#ecdcf8"/>
+  <ellipse cx="381" cy="258" rx="4.5" ry="3" transform="rotate(-28 381 258)" fill="#ecdcf8"/>
+  <ellipse cx="376" cy="273" rx="4.5" ry="3" transform="rotate(-28 376 273)" fill="#ecdcf8"/>
+
+  <!-- ═══════════════════════════ BLADE ═══════════════════════════ -->
+
+  <!-- Blade glow -->
+  <path d="M 50,112 C 2,62 88,5 228,18 C 338,28 432,82 418,120 C 404,152 378,196 356,206 C 326,175 278,150 222,132 C 146,108 82,112 50,112 Z"
+    fill="#8000c8" opacity="0.18"/>
+
+  <!-- Main blade -->
+  <path d="M 50,112 C 2,62 88,5 228,18 C 338,28 432,82 418,120 C 404,152 378,196 356,206 C 326,175 278,150 222,132 C 146,108 82,112 50,112 Z"
+    fill="url(#bladeGrad)"/>
+
+  <!-- Blade outer edge stroke -->
+  <path d="M 50,112 C 2,62 88,5 228,18 C 338,28 432,82 418,120 C 404,152 378,196 356,206 C 326,175 278,150 222,132 C 146,108 82,112 50,112 Z"
+    fill="none" stroke="#d060ff" stroke-width="1.8"/>
+
+  <!-- Cutting edge highlight -->
+  <path d="M 50,112 C 2,62 88,5 228,18 C 338,28 432,82 418,120"
+    fill="none" stroke="#f4deff" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- Internal sheen -->
+  <path d="M 90,97 C 178,53 298,38 392,90"
+    fill="none" stroke="#ffffff" stroke-width="7" opacity="0.07" stroke-linecap="round"/>
+  <path d="M 90,97 C 178,53 298,38 392,90"
+    fill="none" stroke="#f0c0ff" stroke-width="2" opacity="0.22" stroke-linecap="round"/>
+
+  <!-- Tip sharp highlight -->
+  <path d="M 50,112 C 36,106 26,99 20,94 L 25,98 C 35,104 44,109 50,112 Z" fill="#f8e8ff" opacity="0.9"/>
+
+  <!-- Blade filigree scrolls (baroque ornament) -->
+  <path d="M 108,84 C 116,73 131,77 127,89 C 124,98 114,96 118,85" fill="none" stroke="#e8b0ff" stroke-width="1.4" opacity="0.9"/>
+  <path d="M 108,84 C 103,79 98,76 93,82" fill="none" stroke="#e8b0ff" stroke-width="1.2" opacity="0.7"/>
+
+  <path d="M 150,67 C 160,56 175,61 171,74 C 168,84 156,82 160,71" fill="none" stroke="#e8b0ff" stroke-width="1.4" opacity="0.9"/>
+  <path d="M 150,67 C 145,62 140,59 134,65" fill="none" stroke="#e8b0ff" stroke-width="1.2" opacity="0.7"/>
+
+  <path d="M 198,52 C 210,41 226,48 221,62 C 218,73 205,70 209,59" fill="none" stroke="#e8b0ff" stroke-width="1.4" opacity="0.85"/>
+
+  <path d="M 266,38 C 280,29 296,37 291,51 C 288,62 274,59 278,47" fill="none" stroke="#e8b0ff" stroke-width="1.3" opacity="0.8"/>
+
+  <path d="M 392,118 C 405,107 418,117 413,130 C 410,141 397,138 401,126" fill="none" stroke="#e8b0ff" stroke-width="1.3" opacity="0.8"/>
+  <path d="M 406,146 C 417,137 428,147 423,158 C 419,168 407,164 412,152" fill="none" stroke="#e8b0ff" stroke-width="1.3" opacity="0.75"/>
+
+  <!-- ═══════════════════════════ SKULL ═══════════════════════════ -->
+
+  <!-- Skull cranium -->
+  <ellipse cx="328" cy="206" rx="31" ry="29" fill="url(#skullGrad)" stroke="#b060d8" stroke-width="2.2"/>
+
+  <!-- Baroque crown atop skull -->
+  <path d="M 310,183 C 305,169 317,161 328,172 C 339,161 351,169 346,183"
+    fill="none" stroke="#d080f0" stroke-width="1.6"/>
+  <circle cx="328" cy="170" r="4" fill="#e060f0" stroke="#f4a0ff" stroke-width="1"/>
+  <circle cx="316" cy="175" r="2.5" fill="#cc50e8" stroke="#f0a0ff" stroke-width="0.8"/>
+  <circle cx="340" cy="175" r="2.5" fill="#cc50e8" stroke="#f0a0ff" stroke-width="0.8"/>
+
+  <!-- Eye sockets -->
+  <ellipse cx="317" cy="204" rx="9" ry="10" fill="#3a0060" stroke="#8030b0" stroke-width="1"/>
+  <ellipse cx="341" cy="204" rx="9" ry="10" fill="#3a0060" stroke="#8030b0" stroke-width="1"/>
+  <ellipse cx="317" cy="204" rx="5" ry="5.5" fill="#7b1fa2" opacity="0.5"/>
+  <ellipse cx="341" cy="204" rx="5" ry="5.5" fill="#7b1fa2" opacity="0.5"/>
+
+  <!-- Nose cavity -->
+  <path d="M 324,217 L 328,225 L 332,217 Z" fill="#3a0060"/>
+
+  <!-- Jaw -->
+  <path d="M 305,224 Q 328,242 351,224 L 351,234 Q 328,252 305,234 Z"
+    fill="#ddb8ee" stroke="#b060d8" stroke-width="1.5"/>
+
+  <!-- Teeth -->
+  <rect x="311" y="234" width="6"  height="9"  rx="1.5" fill="#ede0f8" stroke="#a060c8" stroke-width="0.8"/>
+  <rect x="319" y="235" width="6"  height="10" rx="1.5" fill="#ede0f8" stroke="#a060c8" stroke-width="0.8"/>
+  <rect x="327" y="235" width="6"  height="10" rx="1.5" fill="#ede0f8" stroke="#a060c8" stroke-width="0.8"/>
+  <rect x="335" y="234" width="6"  height="9"  rx="1.5" fill="#ede0f8" stroke="#a060c8" stroke-width="0.8"/>
+
+  <!-- Forehead crack -->
+  <path d="M 322,183 L 318,197 L 324,201" fill="none" stroke="#9060b8" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Cheek contour -->
+  <path d="M 298,215 C 294,221 296,229 304,226" fill="none" stroke="#c090d8" stroke-width="1.4" opacity="0.55"/>
+  <path d="M 358,215 C 362,221 360,229 352,226" fill="none" stroke="#c090d8" stroke-width="1.4" opacity="0.55"/>
+
+  <!-- ═══════════════════════════ CRYSTAL GEM ═══════════════════════════ -->
+
+  <!-- Gem shadow -->
+  <polygon points="402,130 387,156 400,173 417,156" fill="#4a0080" opacity="0.3"/>
+  <!-- Gem body -->
+  <polygon points="402,130 387,156 400,173 417,156" fill="url(#crystalGrad)" stroke="#f060ff" stroke-width="1.6"/>
+  <!-- Facet lines -->
+  <line x1="402" y1="130" x2="400" y2="173" stroke="#ffd0ff" stroke-width="1.2" opacity="0.65"/>
+  <line x1="387" y1="156" x2="417" y2="156" stroke="#ffd0ff" stroke-width="1"   opacity="0.5"/>
+  <!-- Top facet highlight -->
+  <polygon points="402,130 395,148 404,146" fill="#ff90ff" opacity="0.45"/>
+
+  <!-- ═══════════════════════════ FLORAL & VINE ═══════════════════════════ -->
+
+  <!-- Vines -->
+  <path d="M 280,197 C 300,187 316,185 328,185" fill="none" stroke="#8b27b2" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 328,185 C 342,185 360,190 376,183" fill="none" stroke="#8b27b2" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 316,246 C 308,261 296,271 278,284" fill="none" stroke="#8b27b2" stroke-width="1.3" opacity="0.65"/>
+
+  <!-- Vine leaf -->
+  <path d="M 291,191 C 295,182 305,184 301,192 C 298,200 288,199 291,191 Z" fill="#7b1fa2" opacity="0.75"/>
+  <path d="M 358,187 C 362,178 372,180 369,188 C 366,196 355,195 358,187 Z" fill="#6a1b9a" opacity="0.7"/>
+
+  <!-- Flower left of skull -->
+  <ellipse cx="274" cy="196" rx="6"  ry="10" fill="#c040e8" stroke="#e080ff" stroke-width="1" opacity="0.9"/>
+  <ellipse cx="274" cy="196" rx="10" ry="6"  fill="#c040e8" stroke="#e080ff" stroke-width="1" opacity="0.9"/>
+  <ellipse cx="274" cy="196" rx="6"  ry="10" transform="rotate(45 274 196)" fill="#b030d8" opacity="0.8"/>
+  <circle cx="274" cy="196" r="5" fill="#f090ff"/>
+  <circle cx="274" cy="196" r="2.5" fill="#fff0ff" opacity="0.85"/>
+
+  <!-- Flower right of skull -->
+  <ellipse cx="378" cy="179" rx="5"  ry="9" fill="#b030d8" stroke="#d870ff" stroke-width="1" opacity="0.9"/>
+  <ellipse cx="378" cy="179" rx="9"  ry="5" fill="#b030d8" stroke="#d870ff" stroke-width="1" opacity="0.9"/>
+  <ellipse cx="378" cy="179" rx="5"  ry="9" transform="rotate(45 378 179)" fill="#9820c8" opacity="0.8"/>
+  <circle cx="378" cy="179" r="4" fill="#e870ff"/>
+  <circle cx="378" cy="179" r="2" fill="#fff0ff" opacity="0.85"/>
+
+  <!-- Small bud at vine end -->
+  <circle cx="276" cy="285" r="4.5" fill="#c040e8" stroke="#e080ff" stroke-width="1"/>
+  <circle cx="276" cy="285" r="2"   fill="#f090ff"/>
+
+  <!-- Scatter dots -->
+  <circle cx="260" cy="182" r="2.5" fill="#e0a0ff" opacity="0.7"/>
+  <circle cx="410" cy="175" r="2.5" fill="#e0a0ff" opacity="0.7"/>
+  <circle cx="268" cy="220" r="2"   fill="#e0a0ff" opacity="0.55"/>
+
+</svg>
