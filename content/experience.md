@@ -18,12 +18,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
-  - block: markdown
-    content:
-      title: Current Internship
-      subtitle: ''
-      text: |-
-        **GlobalFoundries** — GenAI Intern (Bangalore)
   - block: resume-skills
     content:
       title: Skills & Technical Expertise

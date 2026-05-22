@@ -67,6 +67,23 @@ education:
       Completed comprehensive AI curriculum including Machine Learning, Deep Learning, Computer Vision, NLP, and Game Theory.
 
 work:
+  # Commented out — uncomment and update once full-time offer is finalised
+  # - position: AI Engineer  # TODO: update title once confirmed
+  #   company_name: GlobalFoundries
+  #   company_url: 'https://www.globalfoundries.com/'
+  #   company_logo: ''
+  #   date_start: 2026-07-01  # TODO: update actual start date
+  #   date_end: ''
+  #   summary: |
+  #     TODO: Add description once role is finalised.
+  - position: GenAI Intern
+    company_name: GlobalFoundries
+    company_url: 'https://www.globalfoundries.com/'
+    company_logo: ''
+    date_start: 2025-05-01  # TODO: update with actual start date
+    date_end: ''            # TODO: update when internship ends (leave empty if ongoing)
+    summary: |
+      TODO: Add a brief description of your role, projects, and key contributions here.
   - position: Research Project - Robust In-Context Learning
     company_name: Indian Institute of Technology Gandhinagar
     company_url: 'https://iitgn.ac.in/'
@@ -77,17 +94,6 @@ work:
       Implemented multi-armed bandit exemplar selection (UCB, Thompson Sampling) for in-context learning with PyTorch and HuggingFace.
 
       Achieved 85-95% recovery of baseline accuracy under non-i.i.d. conditions across diverse NLP benchmarks.
-
-# Commented out work section - uncomment and update when you have experience
-# work:
-#   - position: Position Title
-#     company_name: Company Name
-#     company_url: ''
-#     company_logo: ''
-#     date_start: 2020-01-01
-#     date_end: ''
-#     summary: |
-#       Description of your role and achievements.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -164,4 +170,6 @@ awards:
       Ranked 1037 in JEE Mains.
 ---
 
-I am an M.Tech AI candidate at IIT Gandhinagar focused on generative models, multimodal learning, and robust in-context learning. I build end-to-end AI systems that connect research ideas to usable tools, from story-to-video generation pipelines to multimodal physiological signal fusion for healthcare. I am currently interning at GlobalFoundries (GenAI) in Bangalore. My current research explores multi-armed bandit methods for exemplar selection in in-context learning under non-i.i.d. conditions.
+M.Tech AI candidate at IIT Gandhinagar, working at the intersection of generative models, multimodal learning, and large language models. I build end-to-end systems that connect research ideas to working tools — from a multilingual story-to-video pipeline (Llama 3 + Stable Diffusion) to attention-based fusion of physiological signals for automated pain classification.
+
+Currently a GenAI intern at GlobalFoundries (Bangalore). My primary research investigates multi-armed bandit methods for robust exemplar selection in in-context learning, recovering 85–95% of baseline accuracy under non-i.i.d. distribution shift across diverse NLP benchmarks.

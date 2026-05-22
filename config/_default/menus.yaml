@@ -19,6 +19,6 @@ main:
   - name: Blog
     url: blog/
     weight: 35
-  - name: Courses
+  - name: Coursework
     url: courses/
     weight: 40

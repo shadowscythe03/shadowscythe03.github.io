@@ -1,6 +1,6 @@
 ---
-title: 'StoryForge AI Studio: Story-to-Video Generation Pipeline'
-summary: '7-stage multilingual generative pipeline transforming keywords to complete videos using Llama 3, Stable Diffusion+LoRA, BLIP/CLIP, and MoviePy'
+title: 'StoryForge AI Studio: Multilingual Story-to-Video Pipeline'
+summary: 'End-to-end generative pipeline that turns keywords into narrated videos — story, scene images, audio, and final MP4 — across 7 languages, powered by Llama 3, Stable Diffusion + LoRA, and MoviePy.'
 date: 2025-01-01
 authors:
   - admin
@@ -15,102 +15,58 @@ image:
   focal_point: ''
   preview_only: false
 url_code: 'https://github.com/AbhayVG/ES667-Deep-Learning-project'
+links:
+  - icon: brands/github
+    name: GitHub
+    url: 'https://github.com/AbhayVG/ES667-Deep-Learning-project'
 ---
 
-## Overview
+StoryForge turns a handful of keywords into a complete narrated video — story, scene images, voice narration, and compiled MP4 — through a 7-stage generative pipeline with a Streamlit interface. Supports English, Hindi, French, German, Spanish, Italian, and Telugu.
 
-StoryForge AI Studio is an end-to-end multilingual story-to-video generative pipeline that transforms simple keywords into complete multimedia experiences. The system integrates multiple state-of-the-art AI models to automatically generate stories, create consistent scene images, add audio narration, and compile everything into a final video—all through an intuitive Streamlit interface.
+## Pipeline Architecture
 
-## Key Features
+Each stage is a dedicated Python module; they can be run individually or end-to-end through the Streamlit UI.
 
-- **Multilingual Support**: Generate stories and audio in 7 languages (English, Hindi, French, German, Spanish, Italian, Telugu)
-- **7-Stage Pipeline**: Keyword → Story → Prompts → Images → Consistency Check → Audio → Video
-- **Modular Architecture**: 8+ core Python components for maintainability and extensibility
-- **Interactive Studio**: Streamlit web interface for end-to-end generation in a single run
-- **Automated Consistency**: BLIP/CLIP-based semantic and visual alignment checking
-- **Complete Artifact Package**: Download story, prompts, images, audio, consistency report, and final MP4
+| # | Stage | Module | Model / Tool |
+| --- | --- | --- | --- |
+| 1 | Story generation | `story_generation.py` | Llama 3 via Ollama |
+| 2 | Scene prompt extraction | `prompt_generator.py` | Llama 3 |
+| 3 | Image synthesis | `image_generator.py` | Stable Diffusion 2.1 + LoRA |
+| 4 | Consistency verification | `consistancy_check.py` | BLIP + CLIP |
+| 5 | Audio narration | `audio_generator.py` | gTTS |
+| 6 | Video compilation | `movie_creater.py` | MoviePy |
+| 7 | Interactive interface | `streamlit.py` | Streamlit |
 
-## Technical Architecture
-
-### Core Components
-
-1. **Story Generation** (`story_generation.py`): 
-   - Llama 3 via Ollama for creative story generation from keywords
-   - Language-specific prompting for multilingual output
-
-2. **Prompt Extraction** (`prompt_generator.py`):
-   - Converts story into visually descriptive scene prompts
-   - Maintains character and setting consistency across scenes
-
-3. **Image Generation** (`image_generator.py`):
-   - Stable Diffusion 2.1 with custom LoRA weights
-   - SameFace_Fix LoRA for character consistency
-   - Scene-by-scene image synthesis
-
-4. **Consistency Checking** (`consistancy_check.py`):
-   - BLIP for image captioning
-   - CLIP for semantic similarity scoring
-   - Evaluates prompt-image and story-image alignment
-
-5. **Audio Narration** (`audio_generator.py`):
-   - gTTS for multilingual text-to-speech
-   - Automatic language detection and conversion
-
-6. **Video Compilation** (`movie_creater.py`):
-   - MoviePy for video assembly
-   - Synchronized image transitions with audio narration
-   - Multiple output formats (MP4, AVI)
-
-7. **Streamlit Interface** (`streamlit.py`):
-   - Real-time progress tracking
-   - Individual component downloads
-   - Complete package ZIP export
+**Character consistency** across scenes is enforced with SameFace_Fix LoRA fine-tuning on the diffusion model. **Semantic alignment** between generated images and story prompts is measured using CLIP similarity scores, averaging >25.0 in test runs.
 
 ## Technical Stack
 
-- **LLMs**: Llama 3 (via Ollama)
-- **Image Generation**: Stable Diffusion, LoRA, VAE
-- **Vision Models**: BLIP (captioning), CLIP (similarity)
-- **Audio**: gTTS (Text-to-Speech)
-- **Video**: MoviePy
-- **Framework**: PyTorch, Transformers (HuggingFace)
-- **UI**: Streamlit
-- **Tools**: NumPy, Pandas, PIL, OpenCV
+- **LLM**: Llama 3 (Ollama) for story and prompt generation
+- **Image generation**: Stable Diffusion 2.1, custom LoRA fine-tuning, VAE
+- **Vision-language**: BLIP (captioning), CLIP (semantic similarity)
+- **Audio**: gTTS with automatic language detection
+- **Video**: MoviePy (image transitions + audio sync, MP4/AVI output)
+- **Framework**: PyTorch, HuggingFace Transformers
+- **UI**: Streamlit with real-time progress tracking and ZIP export
 
-## Results & Performance
+## Project Report
 
-- Successfully generates coherent multi-scene stories from keyword input
-- Achieves visual consistency across generated images through LoRA fine-tuning
-- CLIP scores demonstrate strong semantic alignment (>25.0 average)
-- Complete pipeline execution in minutes on GPU hardware
-- Supports batch processing and customizable parameters
+<!-- TODO: Upload your project report PDF and replace the src URL below.
+     Recommended: upload as a GitHub Release asset on this repo, then use:
+     https://docs.google.com/viewer?url=<raw-pdf-url>&embedded=true -->
 
-## Key Learnings
+_Project report coming soon._
 
-1. **Prompt Engineering**: Critical for consistent image generation across scenes
-2. **LoRA Fine-tuning**: Significantly improved character face consistency
-3. **Modular Design**: Enabled independent testing and optimization of each component
-4. **Multimodal Integration**: Learned to synchronize text, image, and audio modalities
-5. **User Experience**: Streamlit provided rapid prototyping for interactive AI applications
+<!-- TODO: once your PDF is hosted, replace the line above with:
+<iframe
+  src="https://docs.google.com/viewer?url=YOUR_PDF_URL_HERE&embedded=true"
+  width="100%"
+  height="850px"
+  style="border: 1px solid #e5e7eb; border-radius: 8px; display: block; margin: 1rem 0;">
+</iframe>
+[Download PDF](YOUR_PDF_URL_HERE)
+-->
 
-## Future Enhancements
+---
 
-- Add video-to-video generation for enhanced scene transitions
-- Implement character customization through reference images
-- Integrate more advanced TTS models (e.g., VITS, Tacotron)
-- Support for longer stories with chapter-based generation
-- Add style transfer and artistic filters
-
-## Course Context
-
-**Course**: ES667 - Deep Learning  
-**Institution**: IIT Gandhinagar  
-**Instructor**: Prof. Anirban Dasgupta  
-**Duration**: January 2025 - April 2025  
-**Team**: Collaborative project with 4 members
-
-## Resources
-
-- [GitHub Repository](https://github.com/AbhayVG/ES667-Deep-Learning-project)
-- [Demo Video](#) (Coming soon)
-- [Technical Report](#) (Coming soon)
+**Course**: ES667 — Deep Learning, IIT Gandhinagar (Jan–Apr 2025) · 4-member team · Supervised by Prof. Anirban Dasgupta
