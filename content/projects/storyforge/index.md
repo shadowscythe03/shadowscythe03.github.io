@@ -49,6 +49,22 @@ Each stage is a dedicated Python module; they can be run individually or end-to-
 - **Framework**: PyTorch, HuggingFace Transformers
 - **UI**: Streamlit with real-time progress tracking and ZIP export
 
+## Demo Video
+
+<!-- TODO: paste your GitHub blob URL for the video here and convert to raw:
+     blob URL:  github.com/shadowscythe03/projects/blob/main/path/to/video.mp4
+     raw URL:   raw.githubusercontent.com/shadowscythe03/projects/main/path/to/video.mp4
+     Then replace YOUR_RAW_VIDEO_URL below. -->
+
+_Demo video coming soon._
+
+<!-- Uncomment once you have the raw URL:
+<video width="100%" controls style="border-radius: 8px; margin: 1rem 0;">
+  <source src="YOUR_RAW_VIDEO_URL" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+-->
+
 ## Project Report
 
 <!-- TODO: Upload your project report PDF and replace the src URL below.
