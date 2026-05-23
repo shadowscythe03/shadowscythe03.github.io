@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🤖
+  icon: 🤐
 
 # Is this the primary user of the site?
 superuser: true
@@ -51,14 +51,16 @@ interests:
 education:
   - area: M.Tech in Artificial Intelligence
     institution: Indian Institute of Technology Gandhinagar
-    date_start: 2024-07-01
-    date_end: 2026-05-31
+    logo: iitgn.png
+    date_start: 2024-07-18
+    date_end: 2026-06-20
     summary: |
       CPI: 8.2/10.0
       
       Focus on Generative AI, Multimodal Learning, Deep Learning, and Natural Language Processing.
   - area: B.Tech in Artificial Intelligence
     institution: Indian Institute of Technology Hyderabad
+    logo: iith.jpg
     date_start: 2020-07-01
     date_end: 2024-05-31
     summary: |
@@ -80,11 +82,11 @@ work:
     company_name: GlobalFoundries
     company_url: 'https://www.globalfoundries.com/'
     company_logo: ''
-    date_start: 2025-05-01  # TODO: update with actual start date
-    date_end: ''            # TODO: update when internship ends (leave empty if ongoing)
+    date_start: 2026-01-29  # TODO: update with actual start date
+    date_end: '2026-05-31'            # TODO: update when internship ends (leave empty if ongoing)
     summary: |
       TODO: Add a brief description of your role, projects, and key contributions here.
-  - position: Research Project - Robust In-Context Learning
+  - position: MTech Research Project - Robust In-Context Learning
     company_name: Indian Institute of Technology Gandhinagar
     company_url: 'https://iitgn.ac.in/'
     company_logo: ''
