@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: M.Tech AI Candidate | GenAI Intern | Generative & Multimodal ML Researcher
+role: GenAI Intern | M.Tech AI Student | Generative & Multimodal ML Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Indian Institute of Technology Gandhinagar
-    url: https://iitgn.ac.in/
+  - name: Global Foundries
+    url: https://gf.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -80,7 +80,7 @@ work:
   #     TODO: Add description once role is finalised.
   - position: GenAI Intern
     company_name: GlobalFoundries
-    company_url: 'https://www.globalfoundries.com/'
+    company_url: 'https://gf.com/'
     company_logo: ''
     date_start: 2026-01-29  # TODO: update with actual start date
     date_end: '2026-05-31'            # TODO: update when internship ends (leave empty if ongoing)
@@ -104,41 +104,45 @@ skills:
     items:
       - name: PyTorch & TensorFlow
         description: ''
-        percent: 88
+        # percent: 88
         icon: cpu-chip
       - name: Generative AI (Diffusion, LoRA)
         description: ''
-        percent: 86
+        # percent: 86
         icon: sparkles
       - name: Multimodal Learning
         description: ''
-        percent: 84
+        # percent: 84
         icon: squares-2x2
       - name: NLP & In-Context Learning
         description: ''
-        percent: 86
+        # percent: 86
         icon: chat-bubble-left-right
   - name: Programming & Tools
     items:
       - name: Python
         description: ''
-        percent: 94
+        # percent: 94
         icon: command-line
       - name: Data Science (NumPy, Pandas)
         description: ''
-        percent: 90
+        # percent: 90
         icon: chart-bar
       - name: CV & Visualization (OpenCV, Matplotlib)
         description: ''
-        percent: 82
+        # percent: 82
         icon: photo
       - name: MLOps & Tooling (Git, Streamlit)
         description: ''
-        percent: 82
+        # percent: 82
         icon: wrench-screwdriver
 
 languages:
   - name: English
+    percent: 100
+  - name: Hindi
+    percent: 50
+  - name: Telugu
     percent: 100
 
 # Awards.
@@ -178,6 +182,10 @@ awards:
       Ranked 1037 in JEE Mains.
 ---
 
-M.Tech AI candidate at IIT Gandhinagar, working at the intersection of generative models, multimodal learning, and large language models. I build end-to-end systems that connect research ideas to working tools — from a multilingual story-to-video pipeline (Llama 3 + Stable Diffusion) to attention-based fusion of physiological signals for automated pain classification.
+I am currently a GenAI Intern at GlobalFoundries (Bangalore), where I build AI tools designed to accelerate and optimize the PCell developer workflow. I recently completed my Master's in Artificial Intelligence at IIT Gandhinagar, specializing at the intersection of generative models, multimodal learning, and large language models (LLMs). 
+My academic research focused on systematically enhancing the robustness and fairness of In-Context Learning using Multi-Armed Bandits. Notably, this work successfully recovered 85–95% of baseline accuracy under non-i.i.d. distribution shifts across diverse NLP benchmarks, alongside exploratory work in fairness constraints.
 
-Currently a GenAI intern at GlobalFoundries (Bangalore). My primary research investigates multi-armed bandit methods for robust exemplar selection in in-context learning, recovering 85–95% of baseline accuracy under non-i.i.d. distribution shift across diverse NLP benchmarks.
+<!-- Currently a GenAI intern at GlobalFoundries (Bangalore). My primary research investigates multi-armed bandit methods for robust exemplar selection in in-context learning, recovering 85–95% of baseline accuracy under non-i.i.d. distribution shift across diverse NLP benchmarks.
+
+M.Tech AI candidate at IIT Gandhinagar. working at the intersection of generative models, multimodal learning, and large language models. I build end-to-end systems that connect research ideas to working tools — from a multilingual story-to-video pipeline (Llama 3 + Stable Diffusion) to attention-based fusion of physiological signals for automated pain classification. -->
+
