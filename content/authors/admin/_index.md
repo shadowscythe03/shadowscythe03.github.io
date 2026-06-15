@@ -162,12 +162,12 @@ awards:
   #   icon: hero/trophy
   #   summary: |
   #     Scored 97.54 percentile in CAT 2023.
-  - title: CAT 2025 - 97.54 Percentile
+  - title: CAT 2025 - 99.43 Percentile
     date: '2025-11-30'
     awarder: CAT
     icon: hero/trophy
     summary: |
-      Scored 99.43 percentile in CAT 2023.
+      Scored 99.43 percentile in CAT 2025.
   - title: JEE Advanced - AIR 616
     date: '2020-09-01'
     awarder: JEE Advanced
